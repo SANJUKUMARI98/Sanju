@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        div.box {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 800px;
+            background-color: white;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 20px 0px 0px 20px;
+        }
+
+        .button {
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+
+        div.one {
+            background-color: pink;
+            border: 2px solid pink;  
+            padding: 5px; 
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            position:relative;
+        }
+
+        div.two {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        div.three {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        #blue {
+            color: blueviolet;
+        }
+
+        .subtwo {
+            width: 50%;
+        }
+
+        .button2 {
+            color: blue;
+            background-color: aquamarine;
+            border: none;
+        }
+
+        .button3 {
+            color: red;
+            background-color: whitesmoke;
+            border: none;
+        }
+
+        .video {
+            border: none;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            color: red;
+            background: papayawhip;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one">
+            <h4>Applications for our 6th November Batches are now open! <span><button class="button">Apply Now</button></span></h4>
+        </div>
+
+        <div style="display: flex; justify-content: space-between">
+            <nav>
+                <span><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="masai logo"></span>
+                <span><a >COURSES</a></span> 
+                <span><a >FEES</a></span> 
+                <span><a >EVENTS</a></span>
+                <span><a >LEARN</a></span>
+                <span><a >SUCCESS STORIES</a></span>
+                <span><a>HIRE FROM US</a></span>
+                <span><button class="button2"><a >REFER & EARN</a></button></span>
+                <span><button class="button3"><a >SIGN UP</a></button></span>
+            </nav>
+        </div>
+
+        <div class="two">
+            <div class="subtwo">
+                <h1 id="blue"><strong>Proof that dreams do</strong></h1>
+                <h1 id="blue"><strong>Come True</strong></h1>
+                <h4>A testament to what's possible</h4>
+                <button class="button">Apply Now</button>
+            </div>
+
+            <div class="subtwo">
+                <iframe class="video" width="400" height="300" src="https://www.youtube.com/embed/0867JeIfyLY?si=2R0AXe89VgWdoDW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="three">
+            <h2>How is Masai Creating an Impact?</h2>
+            <h6>4000 students placed across 1000+ companies</h6>
+        </div>
+    </div>
+</body>
+</html>
