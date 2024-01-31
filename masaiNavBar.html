@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>masaiNavBar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/7fdd60f25a.js" crossorigin="anonymous"></script>
+    
+    
+    
+    <style>
+        .container{
+            display:grid;
+            background-color: white;
+            padding:10px;
+            text-align:center;
+            grid-template-rows: repeat(9,1fr);
+            gap:2%;
+        
+        }
+        .button {
+            color: red;
+            background-color: whitesmoke;
+            border: 1px solid red;
+            border-radius:5px;
+        }
+        .button2{
+            color:blue;
+            border:none;
+            padding:5px;
+
+
+        }
+        a:hover {
+            color: red;
+            background: papayawhip;
+            padding: 10px;
+        }
+        .material-symbols-outlined {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 400,
+              'GRAD' 0,
+              'opsz' 24
+            }
+
+            .container> nav>span{
+            
+                margin-right: 30px;
+                text-align: right;
+                
+            }
+            
+            .container>nav>img {
+                align-items: left;  
+                margin-right: 30px;
+            }
+        
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <nav>
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="">
+        <span>  <strong> <a > COURSES <span class="material-symbols-outlined">
+            expand_more
+            </span> </a> </strong></span>
+        <span>  <strong> <a>FEES & ISA </a></strong></span>
+        <span> <strong> <a>ABOUT US </a></strong> </span>
+        <span>  <strong><a> HIRE FROM US </a> </strong> </span>
+        <span>  <strong>  <a>FAQ </a> </strong>  </span>
+        <span>  <strong><a>  EVENTS </a> </strong> </span>
+        <span >     <button class= "button2"><a> <strong>    REFER & EARN     </strong> </a> <i class="fa-solid fa-hand-holding-heart" style="color: #f30726;"></i> </button>< </span>
+        
+        <span> <button class="button"> <a > <strong>  Login  </strong> </a> </button>   </span>
+    </nav>
+    
+    </div>
+</body>
+</html>

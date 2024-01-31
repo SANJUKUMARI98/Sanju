@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .news{
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            
+        }
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          width: 32%;
+          height: 50vh;
+          background-color: white;
+          border-radius: 5.75%;
+
+        }
+        .card>img{
+            margin: 25px;
+            border: 1px solid black;
+            border-radius: 5.75%;
+        }
+        .cardhead{
+            display: flex;
+            width:70%;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            margin-left: 15%;
+    
+        }
+        .way{
+            
+            background-color: #f4f6ff;
+            padding: 3%;
+            justify-content: space-around;
+        }
+        .sec{
+            padding: 3%;
+        }
+        .sec>div{
+            margin-left: 10px;
+        }
+        .card:hover{
+            
+        }
+        
+        
+        .container {
+          padding: 2px 16px;
+        }
+        .button3 {
+           background-color: white; 
+           color: red; 
+           border: 2px solid #f44336;
+           margin-top: 30px;
+           padding: 15px;
+           border-radius: 10%;
+           position: relative;
+           left: 45%;
+        }
+        .boot{
+            justify-content: space-around;
+        }
+        .button3:hover{
+            background-color: rgb(237, 142, 128);
+        }
+        .fit-picture{
+            border: 1px solid rgb(188, 185, 185);
+            border-radius: 5%;
+            
+        }
+        .secImg>img{
+            position: relative;
+            left: 8%;
+        }
+        
+        </style>
+</head>
+<body>
+    
+    <div class="way">
+        <h2 class="news"><strong>Masai in News</strong></h2>
+        <div class="cardhead">
+         <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="Avatar" style="width:80%">
+            <div class="container">
+              <h4><b>Kunal Shah, Vijay Shekhar Sharma, Amrish Rau among 21 angel investors in Masai School</b></h4> 
+              <p>Masai School is aiming to expand to 20 smaller cities by March 2022 and exp...</p> 
+            </div>
+         </div>
+         <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="Avatar" style="width:80%">
+            <div class="container">
+              <h4><b>Edtech startup Masai School acquies data analytics firm Prepleaf for $1 million</b></h4> 
+              <p>With their latest acquistion, Masai moves one step to becoming indi...</p> 
+            </div>
+         </div>
+         <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="Avatar" style="width:80%">
+            <div class="container">
+              <h4><b>Unitus Ventures leads pre-Series A funding for coding-forcussed Masai School</b></h4> 
+              <p>Software coding platform Masai School has raise $2.5 million (Rs 18.6 cror...</p> 
+            </div>
+         </div>
+          </div>
+          <div class="boot"><button class="button button3">SEE MORE ></button></div>
+    </div>
+    <div class="sec">
+        <h2 class="news"><strong>Our Investors (Who believed in us)</strong></h2>
+        <div class="secImg">
+            <img 
+            class="fit-picture"
+            src="https://www.masaischool.com/images/our-investors/india-q-borderless.svg"
+            alt="investor_logo" />
+            <img
+            class="fit-picture"
+            src="https://www.masaischool.com/images/our-investors/omidyar-borderless.svg"
+            alt="investor_logo" />
+            <img
+            class="fit-picture"
+            src="https://www.masaischool.com/images/our-investors/unitus-borderless.svg"
+            alt="investor_logo" />
+        </div>
+            <button class="button button3">SEE MORE INVERSTORS ></button>
+    </div>
+    
+</body>
+</html>
