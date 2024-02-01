@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>masai calculator</title>
+
+    <style>
+        #body{
+            
+            text-align: center;
+            position:relative;
+            right:20px;
+            font: size 45%;
+            
+            
+        }
+        #cal{
+            width:70%;
+            height:70vh;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:10px;
+            text-align: center;
+            padding:20px;
+            border-radius: 10px;
+            position: fixed;
+            top: 30%;
+            left: 20%;
+           
+
+
+        }
+        #cal>div{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius:5px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        #screen{
+            grid-column: 1/5;
+        }
+        h1{
+            font-size:50px;
+            text-align: center;
+            padding:30px;
+        }
+        #black{
+            background-color: black;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style = "color:rgb(19, 156, 124)">  <strong>Masai Calculator</strong>
+        </h1>
+    <div id="cal">
+        <div id = "screen"></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div id = "black">+</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div id = "black">-</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div id = "black">x</div>
+        <div style="background-color:red; color:white;">c</div>
+        <div>0</div>
+        <div id = "black">=</div>
+        <div id = "black">/</div>
+    </div>
+    
+</body>
+</html>
